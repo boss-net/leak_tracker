@@ -93,7 +93,7 @@ void _verifyLeaks(
   int expectedNotDisposed = 0,
   int expectedNotGCed = 0,
 }) {
-  const String linkToLeakTracker = 'https://github.com/dart-lang/leak_tracker';
+  const String linkToLeakTracker = 'https://github.com/boss-net/leak_tracker';
 
   expect(
     () => expect(leaks, isLeakFree),
